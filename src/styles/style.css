@@ -1,5 +1,5 @@
 /* Mia González — portfolio escritorio */
-@font-face { font-family: 'ChocoTaste'; src: url('../assets/fonts/ChocoTaste.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'ChocoTaste'; src: url('/assets/fonts/ChocoTaste.otf') format('opentype'); font-display: swap; }
 
 :root {
   --paper: #f3ece1;
@@ -512,7 +512,7 @@ img { display: block; }
 }
 
 /* ───────── íconos reales ───────── */
-@font-face { font-family: 'Positions'; src: url('../assets/fonts/Positions.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'Positions'; src: url('/assets/fonts/Positions.otf') format('opentype'); font-display: swap; }
 .real-ico { display: block; width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
 .dock-ico .real-ico { filter: drop-shadow(0 2px 3px rgba(40, 20, 20, .14)); }
 .ic-appimg .real-ico { width: 62px; height: 62px; }
@@ -564,10 +564,10 @@ img { display: block; }
 }
 
 /* ───────── tipografías de Mia ───────── */
-@font-face { font-family: 'WarIsOver'; src: url('../assets/fonts/WarIsOver.ttf') format('truetype'); font-display: swap; }
-@font-face { font-family: 'LEDLIGHT'; src: url('../assets/fonts/LEDLIGHT.otf') format('opentype'); font-display: swap; }
-@font-face { font-family: 'CityBurn'; src: url('../assets/fonts/CityBurn.ttf') format('truetype'); font-display: swap; }
-@font-face { font-family: 'Cherolina'; src: url('../assets/fonts/Cherolina.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'WarIsOver'; src: url('/assets/fonts/WarIsOver.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'LEDLIGHT'; src: url('/assets/fonts/LEDLIGHT.otf') format('opentype'); font-display: swap; }
+@font-face { font-family: 'CityBurn'; src: url('/assets/fonts/CityBurn.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: 'Cherolina'; src: url('/assets/fonts/Cherolina.otf') format('opentype'); font-display: swap; }
 
 /* ───────── pantalla de carga (CRT) ───────── */
 .boot { background: #050505; display: block; }

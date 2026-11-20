@@ -1,3 +1,6 @@
+---
+import "../styles/style.css";
+---
 <!doctype html>
 <html lang="es">
 <head>
@@ -8,9 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <script>/* ?raf: para probar con la pestaña oculta */ if (location.search.includes('raf')) window.requestAnimationFrame = (f) => setTimeout(() => f(performance.now()), 16);</script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script is:inline>/* ?raf: para probar con la pestaña oculta */ if (location.search.includes('raf')) window.requestAnimationFrame = (f) => setTimeout(() => f(performance.now()), 16);</script>
+  <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </head>
 <body>
   <!-- arranque -->
@@ -85,6 +87,6 @@
     </symbol>
   </svg>
 
-  <script type="module" src="js/main.js"></script>
+  <script src="../scripts/main.js"></script>
 </body>
 </html>
